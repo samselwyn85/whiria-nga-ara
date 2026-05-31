@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <meta name="apple-mobile-web-app-capable" content="yes">
-<title>Whiria Ngā Ara — Wireframe Preview</title>
+<title>Whiria Ngā Ara — Prototype</title>
 <style>
 :root {
   --navy: #1F3A5F;
@@ -554,7 +554,7 @@ body.fill-mode .scenario-chip { top: 14px; right: 76px; font-size: 11px; padding
 </button>
 <div class="phone-frame">
   <div class="phone-screen">
-    <div id="wf-label" class="wf-badge">Wireframe</div>
+    <div id="wf-label" class="wf-badge">Prototype</div>
     <div id="scenario-chip-mount"></div>
     <div class="status-bar">
       <span id="time">9:41</span>
@@ -1797,7 +1797,7 @@ function renderExitFlow() {
 }
 
 function confirmExit() {
-  alert('Wireframe note: in the real tool, this would mark the whānau as exited with the captured date and reason. The journey is preserved.');
+  alert('Prototype note: in the real tool, this would mark the whānau as exited with the captured date and reason. The journey is preserved.');
   state.exit = { date: '', reason: '', notes: '' };
   go('home');
 }
